@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+	</head>
+	<body>
+		<header>
+			<div class="top-container">
+				<a href="#" class="mainButton"><i class="fa fa-plus-circle fa-2x"></i></a>
+			</div>		
+		</header>
+		<form class="inputForm">
+			<input type="text" class="inputText urlInput" placeholder="Image URL"></input>
+			<div class="urlError"></div>
+			<textarea class="inputText captionInput" placeholder="Image Caption"></textarea>
+			<div class="captionErr"></div>
+			<div class="buttons">
+				<button type="button" class="cancel">CANCEL</button>
+				<button type="submit" class="addImage"><i class="fa fa-picture-o fa-2x"></i><span>ADD IMAGE</span></button>
+			</div>
+		</form>
+		<section class="main-container">
+			<div class="inner-container">
+				<div id="show-results">
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</body>
+</html>
